@@ -21,62 +21,80 @@ This lesson is aimed at (middle- or) high-school students.
 ## Applicable First Principles &/or Concepts:  
 ### GenCyber First Principles
 Domain Separation	  Abstraction
+
 **Process Isolation	  Data Hiding**
+
 Resource Encapsulation	Layering
+
 Modularity	Simplicity
+
 **Least Privilege		Minimization**
 
 ### GenCyber Cybersecurity Concepts
 Defense in Depth	Availability
+
 **Confidentiality	Think Like an Adversary**
+
 Integrity	Keep it Simple
 
 ## Resources that are Needed: 
 Each student should have:
 * Laptop
 * AppInventor account
-Accommodations Needed: Students may need to present privately to the instructor in another environment. Students may need adaptive technology for interacting with the computer.
-Learning Outcomes
 
-LESSON LEARNING OUTCOMES
+## Accommodations Needed: 
+Students may need to present privately to the instructor in another environment. Students may need adaptive technology for interacting with the computer.
+
+# Learning Outcomes
+
+## LESSON LEARNING OUTCOMES
 Students will be able to critically select features that need to be included in their apps.
+
 Students will be able to consider exploits and vulnerabilities as a component of app design to be weighed against other costs and benefits.
 
-Lesson Details
+# Lesson Details
 
-Interconnection: This lesson can be during the planning phase of the final project, where students are making decisions, or can stand alone.
-Assessment: Students will present in groups on the vulnerabilities inherent in the components they have:
-added to their final project; during the presentation of their app -or-
-been assigned from among potentially exploitable components, including apps they’re familiar with that use that component.
+## Interconnection: 
+This lesson can be during the planning phase of the final project, where students are making decisions, or can stand alone.
+## Assessment: 
+Students will present in groups on the vulnerabilities inherent in the components they have:
+* added to their final project; during the presentation of their app -or-
+* been assigned from among potentially exploitable components, including apps they’re familiar with that use that component.
 
-Extension Activities: This lesson will create a vocabulary by which to check in during the remainder of the final project.
+## Extension Activities: 
+This lesson will create a vocabulary by which to check in during the remainder of the final project.
 
-Differentiated Learning Opportunities: Students who have completed their presentation early can be prompted to define edge cases where the components are optional.
+## Differentiated Learning Opportunities: 
+Students who have completed their presentation early can be prompted to define edge cases where the components are optional.
+
 Students who are struggling should be prompted to think about when they’ve installed apps on their devices. What components do apps request access to? Which components don’t require a request?
 
-Lesson
+# Lesson
 
 
-Lesson 1 Details: 
-Warm Up: Introduce the lesson as guidance for planning your final project. “As you’re deciding what you want in your app…”
+## Lesson 1 Details: 
+### Warm Up: Introduce the lesson as guidance for planning your final project. “As you’re deciding what you want in your app…”
+
 Look back at the Droid, Where’s My Car app. What potential vulnerabilities are there? What would happen if someone found your backpack? What other data could an app collect that you wouldn’t want someone to be able to find about you?
-Lesson:
+
+### Lesson:
 Divide students into groups to each look into the various components of App Inventor. There are 14 component drawers, so each group will look at 2.
-User Interface / Sensors
-Layout / Social
-Media / Storage
-Drawing and Animation / Connectivity
-Maps / LEGO MINDSTORMS
-Charts / Experimental
-Data Science / Extension
+1. User Interface / Sensors
+2. Layout / Social
+3. Media / Storage
+4. Drawing and Animation / Connectivity
+5. Maps / LEGO MINDSTORMS
+6. Charts / Experimental
+7. Data Science / Extension
 For most of the groups, the first drawer is largely display components, vulnerabilities there have to do with “Could someone break into it to show you something?” The second group has places where someone could get your data. 
+
 Take a minute to go through your components. For each component decide:
-If the component would be difficult to exploit - Put the component name on a green post-it.
-If the component could be exploited, but it would mostly be a nuisance (Think rick-rolling) - Put the component name on an orange post-it and a quick note of how it could be exploited.
-If the component feels like a vulnerability - put the component name on a pink post-it, and explain what you see.
-Example
-Slider
-ImageSprite
+* If the component would be difficult to exploit - Put the component name on a green post-it.
+* If the component could be exploited, but it would mostly be a nuisance (Think rick-rolling) - Put the component name on an orange post-it and a quick note of how it could be exploited.
+* If the component feels like a vulnerability - put the component name on a pink post-it, and explain what you see.
+*Example*
+`#5b5` **Slider**
+ImageSprite `#fff`
 
 Could someone make your sprite non-clickable, ruining your game?
 LocationSensor

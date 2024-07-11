@@ -95,14 +95,12 @@ Take a minute to go through your components. For each component decide:
 
 *Example*
 
-`Slider
-ImageSprite`
-
-Could someone make your sprite non-clickable, ruining your game?
-LocationSensor
-
-The stored location information could lead someone to you or your possessions.
+![Example images of three postits. The Green postit just has 'Slider' in bold. The Orange postit has "ImageSprite' in bold, but then also "Could someone make your sprite non-clickable, ruining your game?' below that. The red postit has 'LocationSensor' in bold, followed by 'The stored location information could lead someone to you or your posessions.'](https://github.com/HarlanCS4J/HarlanCS4J.github.io/assets/22405029/ab2b20e6-e758-4299-b944-bd72870d09ec)
 
 
-After you’ve made your post-its, put them on the board under your drawer in the table on the board. https://docs.google.com/presentation/d/1YXTkCGAT8RFSiKmLnyVpAhIlloj-2grmgSJbtV9C6AM/edit?usp=sharing
+
+After you’ve made your post-its, put them on the board under your drawer in the table on the board. 
+
+[Link to the projected image on Google Docs.](https://docs.google.com/presentation/d/1YXTkCGAT8RFSiKmLnyVpAhIlloj-2grmgSJbtV9C6AM/edit?usp=sharing)
+
 As you’re moving forward to make your app, keep this in mind that your app can create vulnerabilities for your users, or be vulnerable to being hacked so that it doesn’t work like you want. 

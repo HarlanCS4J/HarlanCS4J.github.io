@@ -93,8 +93,8 @@ Take a minute to go through your components. For each component decide:
 * If the component could be exploited, but it would mostly be a nuisance (Think rick-rolling) - Put the component name on an orange post-it and a quick note of how it could be exploited.
 * If the component feels like a vulnerability - put the component name on a pink post-it, and explain what you see.
 *Example*
-`#5b5` **Slider**
-ImageSprite `#fff`
+`#55bb55` **Slider**
+ImageSprite
 
 Could someone make your sprite non-clickable, ruining your game?
 LocationSensor

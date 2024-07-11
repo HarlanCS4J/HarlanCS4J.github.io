@@ -1,7 +1,7 @@
 ![Logo for GenCyber](https://media.defense.gov/2019/Jul/22/2002159967/1088/820/0/190722-D-IM742-2001.JPG)
-#Does Your App NEED a Location Sensor?
+# Does Your App NEED a Location Sensor?
 
-##Lesson Description: 
+## Lesson Description: 
 This lesson will be an evaluative “tour of features” lesson for app development. Students will learn to be thoughtful about which features are added to their app by investigating the potential for data breaches inherent in adding a feature to your app. 
 
 ##Prerequisite Knowledge: 

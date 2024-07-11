@@ -4,34 +4,37 @@
 ## Lesson Description: 
 This lesson will be an evaluative “tour of features” lesson for app development. Students will learn to be thoughtful about which features are added to their app by investigating the potential for data breaches inherent in adding a feature to your app. 
 
-##Prerequisite Knowledge: 
+## Prerequisite Knowledge: 
 Students should know the overall organization of the app development environment (Where the tool-trays are located), and how to add items to an app.
 
 Students should have seen and installed apps on devices before.
 
-##Length of Completion: 
+## Length of Completion: 
 This lesson will represent a 20-minute huddle during the planning stages of their final 
 group projects. -or-
 
 This lesson will take 1 class period, including presentations.
 
-##Level of Instruction: 
+## Level of Instruction: 
 This lesson is aimed at (middle- or) high-school students.
-Applicable First Principles &/or Concepts: (Century Gothic, 14 pt., Bold) 
-GenCyber First Principles
-Domain Separation	Abstraction
-Process Isolation	Data Hiding
+
+## Applicable First Principles &/or Concepts:  
+### GenCyber First Principles
+Domain Separation	  Abstraction
+**Process Isolation	  Data Hiding**
 Resource Encapsulation	Layering
 Modularity	Simplicity
-Least Privilege		Minimization
+**Least Privilege		Minimization**
 
-GenCyber Cybersecurity Concepts
+### GenCyber Cybersecurity Concepts
 Defense in Depth	Availability
-Confidentiality	Think Like an Adversary
+**Confidentiality	Think Like an Adversary**
 Integrity	Keep it Simple
-Resources that are Needed: Each student should have:
-Laptop
-AppInventor account
+
+## Resources that are Needed: 
+Each student should have:
+* Laptop
+* AppInventor account
 Accommodations Needed: Students may need to present privately to the instructor in another environment. Students may need adaptive technology for interacting with the computer.
 Learning Outcomes
 

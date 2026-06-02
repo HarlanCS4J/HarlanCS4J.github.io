@@ -1,0 +1,139 @@
+<body>
+<p class=phrase id=100>
+	<span class=inactiveLyric id=0>Cheers </span>
+	<span class=inactiveLyric id=1>for </span>
+	<span class=inactiveLyric id=2>the </span>
+	<span class=inactiveLyric id=3>red </span>
+	<span class=inactiveLyric id=4>and </span>
+	<span class=inactiveLyric id=5>the </span>
+	<span class=inactiveLyric id=6>white. </span>
+</p>
+<p class=phrase id=101>
+	<span class=inactiveLyric id=7>Cheers </span>
+	<span class=inactiveLyric id=8>for </span>
+	<span class=inactiveLyric id=9>North </span>
+	<span class=inactiveLyric id=10>High </span>
+	<span class=inactiveLyric id=11>School </span>
+	<span class=inactiveLyric id=12>with </span>
+	<span class=inactiveLyric id=13>all </span>
+	<span class=inactiveLyric id=14>your </span>
+	<span class=inactiveLyric id=15>might. </span>
+</p>
+<p class=phrase id=102>
+	<span class=inactiveLyric id=16>We </span>
+	<span class=inactiveLyric id=17>will </span>
+	<span class=inactiveLyric id=18>pledge </span>
+	<span class=inactiveLyric id=19>our </span>
+	<span class=inactiveLyric id=20>loy-</span>
+	<span class=inactiveLyric id=21>al-</span>
+	<span class=inactiveLyric id=22>ty-</span>
+	<span class=inactiveLyric id=23>y. </span>
+</p>
+<p class=phrase id=103>
+	<span class=inactiveLyric id=24>True </span>
+	<span class=inactiveLyric id=25>to </span>
+	<span class=inactiveLyric id=26>North </span>
+	<span class=inactiveLyric id=27>High </span>
+	<span class=inactiveLyric id=28>School </span>
+	<span class=inactiveLyric id=29>we'll </span>
+	<span class=inactiveLyric id=30>al-</span>
+	<span class=inactiveLyric id=31>ways </span>
+	<span class=inactiveLyric id=32>be. </span>
+</p>
+<p class=phrase id=104>
+	<span class=inactiveLyric id=33>What </span>
+	<span class=inactiveLyric id=34>mat-</span>
+	<span class=inactiveLyric id=35>ters </span>
+	<span class=inactiveLyric id=36>if </span>
+	<span class=inactiveLyric id=37>we </span>
+	<span class=inactiveLyric id=38>win </span>
+	<span class=inactiveLyric id=39>or </span>
+	<span class=inactiveLyric id=40>we </span>
+	<span class=inactiveLyric id=41>lose? </span>
+</p>
+<p class=phrase id=105>
+	<span class=inactiveLyric id=42>This </span>
+	<span class=inactiveLyric id=43>is </span>
+	<span class=inactiveLyric id=44>the </span>
+	<span class=inactiveLyric id=45>school </span>
+	<span class=inactiveLyric id=46>that </span>
+	<span class=inactiveLyric id=47>we'll </span>
+	<span class=inactiveLyric id=48>al-</span>
+	<span class=inactiveLyric id=49>ways </span>
+	<span class=inactiveLyric id=50>choose. </span>
+</p>
+<p class=phrase id=106>
+	<span class=inactiveLyric id=51>Raise </span>
+	<span class=inactiveLyric id=52>your </span>
+	<span class=inactiveLyric id=53>voi-</span>
+	<span class=inactiveLyric id=54>ces </span>
+	<span class=inactiveLyric id=55>loud </span>
+	<span class=inactiveLyric id=56>and </span>
+	<span class=inactiveLyric id=57>clear </span>
+	<span class=inactiveLyric id=58>and </span>
+</p>
+<p class=phrase id=107>
+	<span class=inactiveLyric id=59>Cheer </span>
+	<span class=inactiveLyric id=60>for </span>
+	<span class=inactiveLyric id=61>your </span>
+	<span class=inactiveLyric id=62>dear </span>
+	<span class=inactiveLyric id=63>North </span>
+	<span class=inactiveLyric id=64>High. </span>
+</p>
+</BODY>
+<style>
+	body{
+		background-image: url('./redbackground1.png');
+	}
+	.inactiveLyric{
+		font-size: 64px;
+		color: red;
+		font-weight: bold;
+	}
+	.activeLyric{
+		font-size: 64px;
+		color: gold;
+		font-weight: bolder;
+	}
+</style>
+<SCRIPT>
+var wordIndex = 0;
+var colorIndex = 0;
+var colors = ["gold", "white", "red"];
+document.addEventListener('keydown', (event) => {
+	if(!document.fullscreenElement){
+		launchIntoFullscreen(document.documentElement);
+		requested=true;
+	}
+	if(event.keyCode == 32){
+		bouncingBall();
+	}
+});
+
+function bouncingBall(){
+	var currWord=document.getElementById(wordIndex);
+	//currWord.style.font-weight="bold";
+	if(!document.fullscreenElement){
+		launchIntoFullscreen(document.documentElement);
+		requested=true;
+	}
+	currWord.style.color=colors[colorIndex];
+	wordIndex++;
+	if(wordIndex == 65){
+		wordIndex = 0;
+		colorIndex = colorIndex+1%colors.length;
+	}
+}
+
+function launchIntoFullscreen(element) {
+    if (element.requestFullscreen) {
+        element.requestFullscreen();
+    } else if (element.mozRequestFullScreen) { // Firefox
+        element.mozRequestFullScreen();
+    } else if (element.webkitRequestFullscreen) { // Chrome, Safari and Opera
+        element.webkitRequestFullscreen();
+    } else if (element.msRequestFullscreen) { // IE/Edge
+        element.msRequestFullscreen();
+    }
+}
+</SCRIPT>
